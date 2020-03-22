@@ -16,7 +16,7 @@ python3 Hla_typing_integration.py \
 -r /mnt/cfs/project/test_freshman/yijian/pipline/hla/test_data/P36.intgration.hla.txt
 ```
  
-### parameter：<br />
+### Parameter：<br />
   - -on, required, optitype typing result for normal sample
   - -ot, required, optitype typing result for tumor sample
   - -pn, required, polysolver typing result for normal sample 
