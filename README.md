@@ -9,11 +9,11 @@ Therefore, we developed a scoring algorithm to integrate the OptiType and Polyso
 
 ```bash
 python3 Hla_typing_integration.py \
---on  /mnt/cfs/project/test_freshman/yijian/pipline/hla/test_data/P36-N_N_WES_P36-N_result.tsv  \
---ot  /mnt/cfs/project/test_freshman/yijian/pipline/hla/test_data/P36-T_T_WES_P36-T_result.tsv \
---pn /mnt/cfs/project/test_freshman/yijian/pipline/hla/test_data/P36-N.winners.hla.nofreq.txt \
---pt  /mnt/cfs/project/test_freshman/yijian/pipline/hla/test_data/P36-T.winners.hla.nofreq.txt \
--r /mnt/cfs/project/test_freshman/yijian/pipline/hla/test_data/P36.intgration.hla.txt
+--on  P36-N_N_WES_P36-N_result.tsv  \
+--ot  P36-T_T_WES_P36-T_result.tsv \
+--pn  P36-N.winners.hla.nofreq.txt \
+--pt  P36-T.winners.hla.nofreq.txt \
+-r P36.intgration.hla.txt
 ```
  
 ### Parameter：<br />
